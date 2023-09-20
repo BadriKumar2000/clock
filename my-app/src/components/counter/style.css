@@ -1,0 +1,30 @@
+.counter-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    box-shadow: 10px 10px 5px lightblue;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+.count{
+    font-size: 100px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.heading{
+    margin-bottom: 0%;
+}
+.button-container{
+    margin-bottom: 20px;
+}
+button{
+    margin-right: 10px;
+    background-color: darkorchid; 
+    color: aliceblue;
+    border: 0px; 
+    border-radius: 5px; 
+    height: 25px; 
+    cursor: pointer;
+}
