@@ -1,9 +1,16 @@
-import Counter from './components/counter';
-import './App.css';
+import { Component } from "react";
+import Counter from "./components/counter";
+import Welcome from "./components/Welcome";
+import "./App.css";
 
-const App = ()=><div className='main-container'>
-  <Counter/>
-</div>
-
+class App extends Component {
+  render() {
+    return (
+      <div className="main-container">
+        <Counter />
+      </div>
+    );
+  }
+}
 
 export default App;
